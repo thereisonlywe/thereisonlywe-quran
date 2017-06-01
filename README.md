@@ -1,4 +1,4 @@
-## This is a complete, open-source and easy-to-use Quran text API for to be used in Java and Android programming. Below are some examples of its usage:
+## This is a complete, open-source and easy-to-use Quran text API for to be used in Java and Android programming. It is very straight forward to use; just add both .jar files as libraries and you are set. Below are some examples of usage:
 
 **Mushaf:**
 1. Set Mushaf (one of MUSHAF_SIMPLIFIED, MUSHAF_UTHMANI, MUSHAF_ENGLISH_LITERAL)
