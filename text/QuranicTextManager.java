@@ -242,4 +242,10 @@ public class QuranicTextManager
 			+ "Files.txt"), IOEssentials.toURL(ROOT_ADDRESS + "Files.txt"),
 			IOEssentials.FILE_UPDATE_POLICY_STRICT);
 	}
+	public static boolean init()
+	{
+		return QuranicTextManager.updateTextsFile()
+			&& QuranicTextManager.updateTextLengthsFile()
+			&& QuranicTextManager.updateTextCompletenessesFile();
+	}
 }
