@@ -51,4 +51,5 @@ qbl.clearBookmarks();
 qbl.addBookmarks(readBookmarks); //add read bookmarks to the list
 qbl.getBookmark(0); //get first bookmark
  ```
-**Check "doc" folder for a complete methods overview.**
+ 
+**You can also use this library to find similar verses to a particular one, find section/surah names and meanings, check for prostration verses etc. Check "doc" folder for a complete methods overview.**
