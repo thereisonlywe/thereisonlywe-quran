@@ -68,7 +68,7 @@ public class QuranicText implements Comparable<QuranicText> {
 	{
 		File f = QuranicTextManager.getTextFile(textIdentifier.getID());
 		if(f.exists()
-				|| (!SystemEssentials.isRunningOnAndroid() && QuranicTextManager.updateText(textIdentifier.getID())))
+				|| QuranicTextManager.updateText(textIdentifier.getID()))
 		{
 			return IOEssentials.fetchLine(f, v + 1).replace(StringEssentials.THEREISONLYWE_LINE_SEPARATOR, "\n");
 		}
