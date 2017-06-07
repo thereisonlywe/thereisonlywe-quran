@@ -63,5 +63,6 @@ qbl.getBookmark(0); //get first bookmark
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   ```
+ -----
  
 **You can also use this library to find similar verses to a particular one, find section/surah names and meanings, check for prostration verses etc. Check "doc" folder for a complete methods overview.**
