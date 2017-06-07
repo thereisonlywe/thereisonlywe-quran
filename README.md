@@ -1,4 +1,5 @@
 ### This is a complete, open-source and easy-to-use Quran text API for to be used in Java and Android programming. Installation is very straight forward; just add .jar files inside "bin" directory as libraries to your project and you are all set. Below are some examples of usage:
+-----
 
 **Mushaf:**
 1. Set Mushaf (one of MUSHAF_SIMPLIFIED, MUSHAF_UTHMANI, MUSHAF_ENGLISH_LITERAL)
@@ -41,6 +42,8 @@ QuranicTextManager.updateText(qtxt.getIdentifier().getID());
 ```java
 qtxt.getVerseContent(Quran.getVerse(Quran.SECTION_COUNT, 1));
 ```
+-----
+
 **Bookmarks:**
 ```java
 QuranicBookmarkList qbl = new QuranicBookmarkList(); //create a bookmark list
@@ -51,5 +54,6 @@ qbl.clearBookmarks();
 qbl.addBookmarks(readBookmarks); //add read bookmarks to the list
 qbl.getBookmark(0); //get first bookmark
  ```
+ -----
  
 **You can also use this library to find similar verses to a particular one, find section/surah names and meanings, check for prostration verses etc. Check "doc" folder for a complete methods overview.**
