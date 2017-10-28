@@ -1,4 +1,4 @@
-### This is a complete, open-source and easy-to-use Quran text API for to be used in Java and Android programming. Installation is very straight forward; just add .jar files inside "bin" directory as libraries to your project and you are all set. Below are some examples of usage:
+### Installation is very straight forward; just add .jar files inside "bin" directory as libraries to your project and you are all set. Below are some examples of usage:
 -----
 
 **Mushaf:**
